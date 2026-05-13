@@ -1,6 +1,6 @@
 import { connectDB } from "@/lib/db";
 import User from "@/models/User";
-import { getServerSession } from "next-auth/next";
+import { getServerSession } from "next-auth";
 import { authOptions } from "../auth/[...nextauth]/route";
 
 // GET Wishlist
